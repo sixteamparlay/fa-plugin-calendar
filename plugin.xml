@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rim="http://www.blackberry.com/ns/widgets"
+    id="cordova-plugin-camera"
+    version="1.2.0">
+    <name>Calendar</name>
+    <description>FrostAura Calendar Plugin</description>
+    <license>MIT</license>
+    <keywords>cordova,phonegap,calendar</keywords>
+
+    <js-module src="www/AddCalendarEvents.js" name="Calendar">
+        <clobbers target="window.calendar" />
+    </js-module>
+
+    <!-- wp8 -->
+    <platform name="wp8">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Calendar">
+                <param name="wp-package" value="AddCalendarEvents" />
+				<param name="onload" value="true" />
+            </feature>
+        </config-file>
+
+        <source-file src="src/wp/AddCalendarEvents.cs" />
+    </platform>
+</plugin>
