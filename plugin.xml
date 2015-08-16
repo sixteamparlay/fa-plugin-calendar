@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:rim="http://www.blackberry.com/ns/widgets"
-    id="cordova-plugin-camera"
+    id="frostaura-plugin-calendar"
     version="1.2.0">
     <name>Calendar</name>
     <description>FrostAura Calendar Plugin</description>
