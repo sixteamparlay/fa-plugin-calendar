@@ -1,5 +1,5 @@
 # Cordova Calendar Plugin
-####by FrostAura
+####by FrostAura & NodeNinja
 
 ## Description
 This plugin allows for adding of calendar events to the device native calendar.
