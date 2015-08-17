@@ -9,7 +9,7 @@
     <repo>https://github.com/faGH/WPCalendarPlugin.git</repo>
     <issue></issue>
 
-    <js-module src="www/faCalendar.js" name="faCalendar">
+    <js-module src="www/faCalendarPlugin.js" name="faCalendar">
         <clobbers target="faCalendar" />
     </js-module>
 
@@ -21,7 +21,7 @@
             </feature>
         </config-file>
 
-        <source-file src="src/wp/faCalendar.cs" />
+        <source-file src="src/wp/faCalendarPlugin.cs" />
     </platform>
 	
 </plugin>
