@@ -1,4 +1,4 @@
-# Cordova Calendar Plugin For Windows Phone
+# Cordova Calendar Plugin
 ####by FrostAura
 
 ## Description
