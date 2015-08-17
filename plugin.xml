@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-           id="AddCalendarEvents"
-      version="1.0.1">
-    <name>AddCalendarEvents</name>
-    <description>FrostAura Calendar Plugin</description>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+      id="net.frostaura.faCalendarPlugin"
+      version="0.1.0">
+    <name>faCalendarPlugin</name>
+    <description>faCalendar Plugin for Apache Cordova</description>
     <license>MIT</license>
-    <keywords>cordova,phonegap,calendar</keywords>
+    <keywords>cordova,phonegap,frostaura,calendar</keywords>
+    <repo>https://github.com/faGH/WPCalendarPlugin.git</repo>
+    <issue></issue>
 
-    <js-module src="www/AddCalendarEvents.js" name="AddCalendarEvents">
-        <clobbers target="navigator.calendar" />
+    <js-module src="www/faCalendar.js" name="faCalendar">
+        <clobbers target="faCalendar" />
     </js-module>
 
     <!-- wp8 -->
     <platform name="wp8">
         <config-file target="config.xml" parent="/*">
-            <feature name="Calendar">
-                <param name="wp-package" value="AddCalendarEvents" />
+            <feature name="faCalendar">
+                <param name="wp-package" value="faCalendar"/>
             </feature>
         </config-file>
 
-        <source-file src="src/wp/AddCalendarEvents.cs" />
+        <source-file src="src/wp/faCalendar.cs" />
     </platform>
+	
 </plugin>
