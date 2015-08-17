@@ -2,10 +2,13 @@
 ####by FrostAura
 
 ## Description
-This plugin allows for adding of calendar events to the native Windows Phone 8 calendar application.
+This plugin allows for adding of calendar events to the device native calendar.
+
+## Supported Platforms
+* Windows Phone 8
 
 ## Installation
-phonegap plugin add https://github.com/faGH/WPCalendarPlugin.git
+phonegap plugin add https://github.com/faGH/fa-plugin-calendar.git
 
 ## Usage
 ```
