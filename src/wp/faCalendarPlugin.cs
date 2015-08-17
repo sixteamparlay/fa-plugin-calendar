@@ -1,6 +1,8 @@
 using Microsoft.Phone.Tasks;
 using Microsoft.Phone.UserData;
 using System;
+using WPCordovaClassLib.Cordova;
+using WPCordovaClassLib.Cordova.Commands;
 using WPCordovaClassLib.Cordova.JSON;
 
 namespace WPCordovaClassLib.Cordova.Commands
