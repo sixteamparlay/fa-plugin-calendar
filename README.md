@@ -1,5 +1,5 @@
-# Cordova Calendar Plugin For Windows Phone 8
-### by FrostAura
+# Cordova Calendar Plugin For Windows Phone
+####by FrostAura
 
 ## Description
 This plugin allows for adding of calendar events to the native Windows Phone 8 calendar application.
@@ -8,6 +8,7 @@ This plugin allows for adding of calendar events to the native Windows Phone 8 c
 phonegap plugin add https://github.com/faGH/WPCalendarPlugin.git
 
 ## Usage
+```
 var onSuccess = function(){
 	// Success code
 };
@@ -26,4 +27,5 @@ window.faCalendar.AddEvent(
 	8, // Event Month
 	21, // Event Day
 	1.0 // Event Duration in Hours
-	);
+);
+```
